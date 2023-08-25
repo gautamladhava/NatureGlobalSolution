@@ -1,0 +1,96 @@
+<footer class="footer">
+
+    <div class="container">
+        <div class="top-footer">
+            <ul class="footer-part">
+                <li class="logo-block">
+                    <a routerLink="home" title="CTN" class="logo"><img src="../../../assets/images/logo.png"> </a>
+                    <ul class="social-icon">
+                        <li><a href="/" title="Facebook"><img src="../../../assets/images/facebook-circle.svg"> </a>
+                        </li>
+                        <li><a href="/" title="Twitter"><img src="../../../assets/images/twitter-circle.svg"> </a>
+                        </li>
+                        <li><a href="/" title="Linkedin"><img src="../../../assets/images/linkedin-circle.svg"> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a routerLink="about" title="About CTN "> About CTN</a> </li>
+                        <li [matMenuTriggerFor]="menu"> CTN Fees </li>
+                        <mat-menu #menu="matMenu" xPosition="after" class="custom-menu" >
+                            <p>Please find below the fees applicable for the issuance of each </p>
+                            <table>
+                              <tr>
+                                <th><span class="bold-text">CARGO TYPE </span> </th>
+                                <th><span class="bold-text">IMPORT FREE </span> </th>
+                                <th><span class="bold-text">ESXPORT FREE </span> </th>
+                              </tr>
+                              <tr>
+                                <td><span class="bold-text">Container</span><span>Lower or equal to 20 feet</span><span>Greater than 20
+                                    feet</span></td>
+                                <td><span> USD 105 per container </span><span> USD 210 per container </span></td>
+                                <td><span> USD 15 per container </span><span> USD 30 per container </span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="bold-text">Bulk,Break-bulk & Conventional</span></td>
+                                <td><span> USD 0.84 per ton </span></td>
+                                <td><span> Bauxite: USD 0.18 per ton </span><span> Rutile/Zircon/Ilmenite:USD 0.36 per ton </span><span>
+                                    Other: USD 0.4 per ton </span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="bold-text">PORO</span><span>0 to 5 tons</span>
+                                  <span>5 tons to 10 tons </span>
+                                  <span>10 tons to 15 tons </span>
+                                  <span>15 tons and above </span>
+                
+                                </td>
+                                <td><span> USD 108 per vehicle </span><span> USD 204 per vehicle </span><span> USD 312 per vehicle
+                                  </span><span> USD 416 per vehicle </span></td>
+                                <td><span> USD 15 per vehicle </span><span> USD 30 per vehicle </span><span> USD 50 per vehicle
+                                  </span><span> USD 70 per vehicle </span></td>
+                              </tr>
+                            </table>
+                          </mat-menu>
+                        <li><a href="/" title="Contact Us">Contact Us</a> </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a routerLink="home" title="Home "> Home</a> </li>
+                        <li><a routerLink="about" title="About Us ">About Us </a> </li>
+                        <li><a href="/" title="Help/Support">Help/Support</a> </li>
+                        <li><a href="/" title="How it works">How it works</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Subscribe Newsletter </h4>
+                    <p>Subscribe to our newsletter for latest updates.</p>
+                    <mat-form-field class="custom-form-field custom-footer-field">
+                       
+                        <input matInput placeholder="Enter your email address" >
+                      </mat-form-field>
+                    
+                    <button mat-button class="btn yellow-btn">SUBSCRIBE</button>
+                    
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="bottom-block">
+                <ul>
+                    <li><a routerLink="" title="Terms&Condition"> Terms & Condition</a></li>
+                    <li><a routerLink="" title="Privacy Policy">Privacy Policy</a> </li>
+
+                </ul>
+                <p>NTA Solutions &copy; 2023 All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>

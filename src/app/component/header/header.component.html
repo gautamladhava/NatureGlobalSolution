@@ -1,0 +1,79 @@
+<header class="header">
+  <div class="container">
+    <div class="header-block">
+      <div class="overlay" (click)="closemenu()"></div>
+      <div class="header-left-block">
+        <a routerLink="home" title="CTN"><img src="../../../assets/images/logo.png"> </a>
+        <ul class="header-link mobile-hide">
+          <li><a routerLink="about" routerLinkActive="active" title="About CTN"> About CTN</a></li>
+          <li (click)="openmenu()"> CTN Fees
+            <div class="custom-menu" id="open_menu">
+              <p>Please find below the fees applicable for the issuance of each </p>
+              <table>
+                <tr>
+                  <th><span class="bold-text">CARGO TYPE </span> </th>
+                  <th><span class="bold-text">IMPORT FREE </span> </th>
+                  <th><span class="bold-text">ESXPORT FREE </span> </th>
+                </tr>
+                <tr>
+                  <td><span class="bold-text">Container</span><span>Lower or equal to 20 feet</span><span>Greater than 20
+                      feet</span></td>
+                  <td><span> USD 105 per container </span><span> USD 210 per container </span></td>
+                  <td><span> USD 15 per container </span><span> USD 30 per container </span></td>
+                </tr>
+                <tr>
+                  <td><span class="bold-text">Bulk,Break-bulk & Conventional</span></td>
+                  <td><span> USD 0.84 per ton </span></td>
+                  <td><span> Bauxite: USD 0.18 per ton </span><span> Rutile/Zircon/Ilmenite:USD 0.36 per ton </span><span>
+                      Other: USD 0.4 per ton </span></td>
+                </tr>
+                <tr>
+                  <td><span class="bold-text">PORO</span><span>0 to 5 tons</span>
+                    <span>5 tons to 10 tons </span>
+                    <span>10 tons to 15 tons </span>
+                    <span>15 tons and above </span>
+  
+                  </td>
+                  <td><span> USD 108 per vehicle </span><span> USD 204 per vehicle </span><span> USD 312 per vehicle
+                    </span><span> USD 416 per vehicle </span></td>
+                  <td><span> USD 15 per vehicle </span><span> USD 30 per vehicle </span><span> USD 50 per vehicle
+                    </span><span> USD 70 per vehicle </span></td>
+                </tr>
+              </table>
+            </div>
+          </li>
+
+          
+        </ul>
+      </div>
+      <div class="header-right-block">
+        <mat-form-field class="custom-form-field custom-select-form " appearance="outline">
+          <mat-select placeholder="My Account">
+            <mat-option value="one">Seting</mat-option>
+            <mat-option value="two">Logout</mat-option>
+            <mat-option value="three">MyProfile</mat-option>
+            <mat-option value="four">CTM list</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="custom-form-field custom-select-form cusotm-border-none" appearance="outline">
+          <mat-select placeholder="EN">
+            <mat-option value="one">GUJ</mat-option>
+            <mat-option value="two">HINDI</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <img src="../../../assets/images/flag.png">
+        <ul class="header-link mobile-show">
+          <li><a routerLink="about" title="About CTN" routerLinkActive="active"> About CTN</a></li>
+         
+          <li (click)="openmenu()"> CTN Fees </li>
+        </ul>
+
+      </div>
+      <div class="menu-icon mobile-show" (click)="togglemenu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,24 @@
+<section class="login-section">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <img src="{{ slide.img }}" alt="" width="100%">
+        </div>
+    </ngx-slick-carousel>
+
+    <div class="login-containt">
+        
+        <h1> VIEWING THE COMPLETE IMPORT/EXPORT CARGO ACTIVITIES QUICKER & CLOSER </h1>
+        <p class="bg-text"> Our authentication of conformity service that helps in ensuring that all shipments conform to ISPS and local
+            importing standards ahead of the arrival in order to allow trade parties to process import/export
+            certification and timely screen all movements of goods across borders. </p>
+          
+            <div class="button-group">
+                <a routerLink="/shipper" title="Shipper Login" mat-button class="btn yellow-btn">SHIPPER LOGIN</a>
+                <a routerLink="/mrn" title="MRN Login" mat-button class="btn yellow-btn">MRN LOGIN</a>
+            </div>  
+    </div>
+   
+
+
+</section>

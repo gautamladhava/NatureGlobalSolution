@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NatureGlobalSolution';
+  @HostListener('window:scroll')
+  onScroll() {
+
+    if (document.documentElement.scrollTop > 0) {
+      document.body.classList.add("sticky")
+    }
+    else {
+      document.body.classList.remove("sticky")
+    }
+  }
 }
