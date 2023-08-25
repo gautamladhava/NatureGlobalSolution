@@ -1,27 +1,9 @@
-# NatureGlobalSolution
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![home](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/a8e6b6f3-286c-491b-a024-ab1ee786afc7)
+![about-ctn](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/ffce712b-6df5-4c5e-8fed-c0efab15f308)
+![ctn-fees](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/ca01c332-bc34-4c38-b690-37ad4d946f8d)
+![my-account](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/c6e6bb1b-96b4-4827-8e03-9d7ab4740601)
+![mrn-login](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/c65fdcc1-e2c8-4da2-9858-e07f1c0d7c9f)
+![mrn-registration](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/61887178-7774-49d1-abb9-585110c0ea37)
+![shipper-login-tab1](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/755337eb-7a38-4110-800a-0aadbc074ba5)
+![shipper-login-tab2](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/6c65e855-f7d0-4541-b1aa-51812570722b)
+![shipper-login-tab3](https://github.com/gautamladhava/NatureGlobalSolution/assets/109068997/d49e53a6-29e8-4713-ac45-2fb5d07960cb)
